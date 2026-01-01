@@ -1,13 +1,13 @@
-## VectorShift Frontend Technical Assessment
+# VectorShift Frontend Technical Assessment
 
-# Minimal, Functional Implementation
+## Minimal, Functional Implementation
 
 This repository contains my solution to the VectorShift Frontend Technical Assessment, implemented with React (Vite) on the frontend and FastAPI on the backend.
 
 The focus of this submission is clean node abstraction, dynamic text node behavior, unified styling, and full frontend–backend integration for validating pipelines.
 
-## 🛠 Tech Stack
-# Frontend
+# 🛠 Tech Stack
+## Frontend
 
 React (JavaScript)
 
@@ -15,7 +15,7 @@ Vite
 
 CSS (custom compact theme)
 
-# Backend
+## Backend
 
 Python
 
@@ -45,7 +45,7 @@ Uvicorn
 │
 └── README.md
 
-# 🚀 Running the Project
+## 🚀 Running the Project
 Frontend (React + Vite)
 cd frontend
 npm install
@@ -78,7 +78,7 @@ uvicorn main:app --reload
 http://127.0.0.1:8000
 
 
-# The frontend expects the backend at this address.
+## The frontend expects the backend at this address.
 
 🧩 What Was Implemented
 Part 1: Node Abstraction
@@ -86,7 +86,7 @@ Goal
 
 Avoid duplicated code across node implementations and make it easy to add new node types.
 
-# Implementation
+## Implementation
 
 Created a reusable NodeBase.jsx abstraction that handles:
 
